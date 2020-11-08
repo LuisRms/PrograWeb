@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="programacion_web/CSS/normalize.css">
+    <link rel="stylesheet" href="programacion_web/CSS/styles.css">
+</head>
+
+<body>
+    <header class="head2">
+
+        <div class="barra cnt">
+            <a href="Index.html"><img
+                    src="IMG\logo.svg " alt="Logo BienesRaices"></a>
+            <nav class="navegacion">
+                <a href="Nosotros.html">Nosotros</a>
+        <a href="Anuncios.html">Anuncios</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <h2 class="centrar-texto">Contacto</h2>
+    <img src="IMG\destacada3.jpg" alt="Contacto">
+
+    <h3 class="centrar-texto">Llena el Formulario de Contacto </h3>
+    <div class="cntFr">
+        <form>
+            <fieldset>
+                <legend class="encab">Informacion personal</legend>
+                <label class="etiq" for="Nombre">Nombre:</label><br><br>
+                <input class="cajaCont" type="text" name="nombres" placeholder="Ingrese su Nombre"><br><br>
+                <label class="etiq" for="correo">E-mail:</label><br><br>
+                <input class="cajaCont" type="email" name="correo" placeholder="Ingrese su correo"><br><br>
+                <label class="etiq" for="telefono">Telefono:</label><br><br>
+                <input class="cajaCont" type="text" name="telefono" placeholder="Ingrese su telefono"><br><br>
+                <label class="etiq" for="mensaje">Mensaje:</label><br><br>
+                <input class="cajaCont tamgde" type="text" name="mensaje"><br><br>
+            </fieldset>
+
+            <fieldset>
+               <br><br> <legend class="encab">Informacion propiedad</legend>
+                <label class="etiq" for=VC>Venta o Compra :</label><br><br>
+                <select id="mySelect">
+                    <option class="cajaCont">Venta</option>
+                    <option class="cajaCont">Compra</option>
+                  </select>
+                <br> <br><label class="etiq" for="presupuesto">Presupuesto:</label><br><br>
+                <input class="cajaCont" type="text" name="presupuesto" placeholder="Ingrese su presupuesto"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <br><br> <legend class="encab">Contacto</legend>
+                <label class="etiq" for=opc>Como desea ser contactado:</label><br><br>
+                <input type="radio"name="opcCont" value="telefono">
+                <label for="telefono">Telefono</label><br>
+                <input type="radio" name="opcCont" value="Correo">
+                <label for="correo">Correo</label><br>
+               <br><br> <label class="etiq" for=fechaHora>Si eligio telefono elija la fecha y hora:</label><br><br>
+                <input type="datetime-local" name="fHora">
+               
+             </fieldset>
+        </form>
+    </div>
+</body>
+<footer>
+    <p>Esta pagina esta siendo desarrollada por Luis Alberto Ramos Puntos </p>
+    <p>Todos los derechos reservados &copy;</p>
+    <nav class="navegacion cnt">
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Anuncios.html">Anuncios</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contacto.html">Contacto</a>
+    </nav>
+</footer>
+
+</html>
